@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>WindowsGPT</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <div class="container mx-auto">
+        <div class="header py-4">
+            <h1>WindowsGPT</h1>
+            <div class="header-actions">
+                <button id="profile-button" class="action-button">
+                    <i class="fa fa-user-circle"></i>
+                </button>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="chat-actions py-4">
+                <button id="new-chat-button" class="action-button">
+                    <i class="fa fa-plus"></i>New Chat
+                </button>
+            </div>
+            <div class="chat-history">
+            </div>
+            <div class="chat-actions py-4">
+                <button id="clear-chats-button" class="action-button">
+                    <i class="fa fa-recycle"></i>Clear All Conversations
+                </button>
+                <button id="dark-mode-button" class="action-button">
+                    <i class="fa fa-moon"></i>Dark Mode
+                </button>
+            </div>
+        </div>
+            <div class="chat-input-container">
+                <textarea id="chat-input" placeholder="Type your message here"></textarea>
+                <button id="send-chat-button" class="action-button">
+                    <i class="fa fa-paper-plane"></i>Send
+                </button>
+            </div>
+    </div>    
+</body>
+</html>
